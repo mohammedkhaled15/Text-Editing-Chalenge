@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.container{
+    width: 90%;
+    margin: 100px auto;
+    background-color: #888;
+    padding: 40px;
+    font-family:Verdana, Tahoma, sans-serif;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+select{
+    margin-right:30px;
+}
+button{
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+input{
+width: 50px;
+padding: 5px;
+border: none;
+border-radius: 3px;
+text-align: center;
+font-weight: bold;
+}
+.pra{
+    margin: 20px 20px 0;
+    background-color: #eee;
+    padding:30px;
+}
+.pra p{
+    display: none;
+}
+.visible{
+    display: block !important;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
